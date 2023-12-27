@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Rolling Game</title>
+    <style>
+        body {
+            background-color: rgb(9, 9, 46);
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        button {
+            font-size: 3rem;
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+
+        button:active {
+            background-color: yellow;
+        }
+
+        img {
+            width: 500px;
+            /* margin: 5px; */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+    <h1>DICE ROLLING GAME</h1>
+    
+    <div>
+        
+        <img src="inage/pngwing.com.png" alt="">
+    </div><br><br>
+    <button onclick="start()" id="myButton">START</button>
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "try1.html";
+        };
+    </script>
+</body>
+
+</html>

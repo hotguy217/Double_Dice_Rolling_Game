@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(9, 9, 46);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+body > div{
+    color: white;    
+}
+
+#Container,#Container2 {
+    margin: 5%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+div > div{
+    width: 100%;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    background-color: yellow;
+}
+
+input {
+    font-size: 2rem;
+    width: 150px;
+    font-weight: bold;
+}
+
+#diceResult {
+    margin: 25px;
+}
+
+#diceImages img {
+    width: 150px;
+    margin: 5px;
+}
+
+#diceResult2 {
+    margin: 25px;
+}
+
+#diceImages2 img {
+    width: 150px;
+    margin: 5px;
+}
+
+input{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#bigContainer{
+    position: relative;
+    width: 100%;
+}
+
+#restartBtn{  
+    text-align: center;
+    /* position: absolute; */
+}

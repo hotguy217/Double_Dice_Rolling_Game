@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Rolling Game</title>
+    <link rel="stylesheet" href="try.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="headBanger">
+        <header>
+            <h1><u>Dice Rolling Game</u></h1>
+            <button onclick="compareDiceTotal()">COMPARE</button>
+            <p id="winLoseCondition"></p>
+        </header>
+    </div>
+
+    <div id="bigContainer">
+        <div id="Container">
+            <p>🎲 PLAYER ONE</p>
+            <input type="number" value="1" min="1" max="3" id="numOfDice">
+            <button onclick="rollDice()" id="fir">Roll Dice</button>
+            <div id="diceResult">dice: </div>
+            <div id="diceTotal">total: </div>
+            <div id="diceImages"><img src="inage/6.png" alt="" id="image1"></div>
+            <br>
+            <div id="winLoseCount">Win: 0</div>
+        </div>
+
+        <div id="Container2">
+            <p>🎲 PLAYER TWO</p>
+            <input type="number" value="1" min="1" max="3" id="numOfDice2">
+            <button onclick="rowDiceTwo()" id="sec">Roll Dice</button>
+            <div id="diceResult2">dice: </div>
+            <div id="diceTotal2">total: </div>
+            <div id="diceImages2"><img src="inage/6.png" alt="" id="image2"></div>
+            <br>
+            <div id="winLoseCount2">Win: 0</div>
+        </div>
+    </div>
+
+    <button onclick="restart()" id="restartBtn">RESTART</button>
+
+    <script src="try_index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+
+</html>
